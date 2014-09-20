@@ -1,0 +1,60 @@
+*mopbuf.txt*
+
+Author:  Mopp
+Version: 0.1
+
+
+==============================================================================
+CONTENTS                                    *marker-contents*
+    Introduction                            |marker-introduction|
+        Install                             |marker-install|
+    Command                                 |marker-command|
+    Mapping                                 |marker-mapping|
+    Options                                 |marker-options|
+
+
+==============================================================================
+INTRODUCTION                                *marker-introduction*
+    This makes mark function of vim more convenient.
+    This is developed in Github(https://github.com/mopp/marker.git).
+    Inspired by http://saihoooooooo.hatenablog.com/entry/2013/04/30/001908
+
+
+------------------------------------------------------------------------------
+INSTALL                                     *marker-install*
+    Install the distributed files into your Vim script directory which is
+    usually $HOME/.vim. you can use Neobundle below >
+        NeoBundle 'mopp/marker.vim'
+<
+
+==============================================================================
+COMMAND                                     *marker-command*
+
+
+:MarkerAutoMark
+    automatically selects mark in 'a-z' and do mark using it.
+
+==============================================================================
+MAPPING                                     *marker-mapping*
+
+
+<Plug>(Marker-auto_mark)
+    automatically selects mark in 'a-z' and do mark using it.
+
+
+==============================================================================
+OPTIONS                                     *mopbuf-options*
+    These oprions changes Plugin behavior.
+    If you would like to change behavior, You add or change value in your
+    vimrc.
+
+g:marker_is_reset                           *g:marker_is_reset*
+        Type : Number(Bool)
+        If this is 1, all mark is delete when open buffer.
+
+        Default Value is 0.
+
+
+==============================================================================
+
+vim:ts=4:ft=help:norl:
