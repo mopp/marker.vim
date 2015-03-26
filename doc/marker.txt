@@ -1,4 +1,4 @@
-*mopbuf.txt*
+marker.txt*
 
 Author:  Mopp
 Version: 0.1
@@ -43,7 +43,7 @@ MAPPING                                     *marker-mapping*
 
 
 ==============================================================================
-OPTIONS                                     *mopbuf-options*
+OPTIONS                                     *marker-options*
     These oprions changes Plugin behavior.
     If you would like to change behavior, You add or change value in your
     vimrc.
